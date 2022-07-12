@@ -7,7 +7,8 @@ defmodule Math do
   def mul(num1, num2) do
     IO.puts(num1 * num2)
   end
+
 end
 
-IO.puts("O Restultado da multiplicacao eh: ")
+IO.puts("Result: ")
 Math.mul(2, 5)
